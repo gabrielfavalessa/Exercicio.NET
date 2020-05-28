@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gabrielfavalessapignaton/Documents/Programas/Revisão/Revisão.csproj",
+      "projectUniqueName": "/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/Revisão.csproj",
       "projectName": "Revisão",
-      "projectPath": "/Users/gabrielfavalessapignaton/Documents/Programas/Revisão/Revisão.csproj",
+      "projectPath": "/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/Revisão.csproj",
       "packagesPath": "/Users/gabrielfavalessapignaton/.nuget/packages/",
-      "outputPath": "/Users/gabrielfavalessapignaton/Documents/Programas/Revisão/obj/",
+      "outputPath": "/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gabrielfavalessapignaton/.nuget/NuGet/NuGet.Config"

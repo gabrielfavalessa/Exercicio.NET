@@ -10,3 +10,15 @@
 /Users/gabrielfavalessapignaton/Documents/Programas/Revisão/obj/Debug/netcoreapp3.1/Revisão.dll
 /Users/gabrielfavalessapignaton/Documents/Programas/Revisão/obj/Debug/netcoreapp3.1/Revisão.pdb
 /Users/gabrielfavalessapignaton/Documents/Programas/Revisão/obj/Debug/netcoreapp3.1/Revisão.genruntimeconfig.cache
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/Debug/netcoreapp3.1/Revisão.csprojAssemblyReference.cache
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/Debug/netcoreapp3.1/Revisão.AssemblyInfoInputs.cache
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/Debug/netcoreapp3.1/Revisão.AssemblyInfo.cs
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/Debug/netcoreapp3.1/Revisão.csproj.CoreCompileInputs.cache
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/Debug/netcoreapp3.1/Revisão.dll
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/Debug/netcoreapp3.1/Revisão.pdb
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/bin/Debug/netcoreapp3.1/Revisão.deps.json
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/bin/Debug/netcoreapp3.1/Revisão.runtimeconfig.json
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/bin/Debug/netcoreapp3.1/Revisão.runtimeconfig.dev.json
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/bin/Debug/netcoreapp3.1/Revisão.dll
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/bin/Debug/netcoreapp3.1/Revisão.pdb
+/Users/gabrielfavalessapignaton/Documents/Programas/Exercicio.NET/obj/Debug/netcoreapp3.1/Revisão.genruntimeconfig.cache

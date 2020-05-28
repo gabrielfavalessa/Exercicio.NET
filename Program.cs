@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+    Este programa foi construído com base na aula sobre .NET da Digital Innovation One, ministrada pelo professor Gabriel Faraday
+*/
+
+using System;
 
 namespace Revisão
 {
@@ -9,6 +13,10 @@ namespace Revisão
             int indiceAluno = 0;
             Aluno[] alunos = new Aluno[5];
 
+            Students pilha_alunos = new Students();
+            string nome_aluno;
+            decimal nota_aluno;
+
             string opcaoUsuario = ObterOpção();
 
             while (opcaoUsuario.ToUpper() != "X")
@@ -16,6 +24,10 @@ namespace Revisão
                 switch (opcaoUsuario)
                 {
                     case "1":
+                    /*
+
+                        // Solução usando a struct
+
                         Console.WriteLine("Informe o nome do aluno:");
                         Aluno aluno = new Aluno();
                         aluno.nome = Console.ReadLine();
@@ -33,10 +45,28 @@ namespace Revisão
                         alunos[indiceAluno] = aluno;
 
                         indiceAluno++;
+                    */
+
+                        // Solução usando a class
+                        
+                        Console.WriteLine("Informe o nome do aluno:");
+                        nome_aluno = Console.ReadLine();
+
+                        Console.WriteLine("Digite a nota do aluno:");
+                        if (!decimal.TryParse(Console.ReadLine(), out nota_aluno))
+                        {
+                            throw new ArgumentException("Valor da nota deve ser decimal");
+                        }
+                        
+                        pilha_alunos.incluir_Aluno(nome_aluno, nota_aluno);
 
                         break;
 
                     case "2":
+                    /*
+
+                        // Solução utilizando o struct
+
                         foreach (var a in alunos)
                         {
                             if (!string.IsNullOrEmpty(a.nome))
@@ -44,9 +74,24 @@ namespace Revisão
                                 Console.WriteLine($"ALUNO: {a.nome} - NOTA: {a.nota}");
                             }
                         }
+                    */
+
+                        // Solução usando a classe
+
+                        Student a = pilha_alunos.atual;
+
+                        while (a != null)
+                        {
+                            Console.WriteLine($"ALUNO: {a.nome} - NOTA: {a.nota}");
+                            a = a.anterior;
+                        }
                         break;
 
                     case "3":
+                    /*
+
+                        // Solução utilizando o struct
+
                         decimal notaTotal = 0;
                         int nrAlunos = 0;
 
@@ -58,8 +103,11 @@ namespace Revisão
                                 nrAlunos++;
                             }
                         }
-                        
-                        var mediaGeral = notaTotal/nrAlunos;
+                    */
+
+                        // Solução utilizando a classe
+
+                        var mediaGeral = pilha_alunos.media();
                         Conceito conceitoGeral;
 
                         if (mediaGeral < 2)
@@ -83,7 +131,7 @@ namespace Revisão
                             conceitoGeral = Conceito.A;
                         }
 
-                        Console.WriteLine($"MÉDIA GERAL - {notaTotal/nrAlunos} - CONCEITO: {conceitoGeral}");
+                        Console.WriteLine($"MÉDIA GERAL - {mediaGeral} - CONCEITO: {conceitoGeral}");
 
                         break;
 
